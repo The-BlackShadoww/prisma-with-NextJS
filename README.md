@@ -103,7 +103,7 @@ Response:
 }
 ```
 
-Database
+### Database
 This project uses Prisma as the ORM. The database schema is defined in schema.prisma.
 
 Environment Variables
@@ -112,12 +112,13 @@ Create a .env file in the root directory and add the following environment varia
 DATABASE_URL=your-database-url
 ```
 Scripts
-npm run dev: Starts the development server.
-npm run build: Builds the project for production.
-npm run start: Starts the production server.
-npm run lint: Runs ESLint to check for linting errors.
-Contributing
+``` npm run dev: ``` Starts the development server.
+``` npm run build: ``` Builds the project for production.
+``` npm run start: ``` Starts the production server.
+``` npm run lint: ``` Runs ESLint to check for linting errors.
+
+### Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+### License
 This project is licensed under the MIT License. ```
