@@ -53,13 +53,17 @@ URL: /api/pin/create
 Method: POST
 Request Body:
 
+```sh
 {
   "title": "string",
   "description": "string",
   "type": "string",
   "content": "string"
 }
+```
 Response: 
+
+```sh
 {
   "id": "string",
   "title": "string",
@@ -69,9 +73,11 @@ Response:
   "createdAt": "string",
   "updatedAt": "string"
 }
+```
 
 Update Pin
 
+```sh
 {
   "id": "string",
   "title": "string",
@@ -81,9 +87,11 @@ Update Pin
   "createdAt": "string",
   "updatedAt": "string"
 }
+```
 
 Response:
 
+```sh
 {
   "id": "string",
   "title": "string",
@@ -93,15 +101,16 @@ Response:
   "createdAt": "string",
   "updatedAt": "string"
 }
+```
 
 Database
 This project uses Prisma as the ORM. The database schema is defined in schema.prisma.
 
 Environment Variables
 Create a .env file in the root directory and add the following environment variables:
-
+```sh
 DATABASE_URL=your-database-url
-
+```
 Scripts
 npm run dev: Starts the development server.
 npm run build: Builds the project for production.
